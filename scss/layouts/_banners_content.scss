@@ -1,0 +1,16 @@
+.banners_content {
+    .content {
+        padding: calc(var(--padding) * 3) 0;
+        @media (min-width: 769px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        img {
+            width: 100%;
+            margin-bottom: var(--margin);
+            @media (min-width: 769px) {
+                width: 49%;
+            }
+        }
+    }
+}

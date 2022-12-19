@@ -1,0 +1,12 @@
+.response {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: calc(var(--margin) * 2);
+    padding: calc(var(--padding) * 2);
+    border-radius: .5em;
+    background: white;
+    &.hidden {
+        display: none;
+    }
+}

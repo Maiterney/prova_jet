@@ -1,0 +1,35 @@
+.best_sellers {
+    padding: 0 calc(var(--padding) * 1.5);
+    @media (min-width: 769px) {
+        padding: calc(var(--padding) * 2) 0;
+    }
+    @media (min-width: 1279px) and (max-width: 1281px) {
+        padding: calc(var(--padding) * 2) 0;
+    }
+    .title {
+        text-align: center;
+        padding-bottom: calc(var(--padding) * 2);
+        h2 {
+            position: relative;
+            padding-bottom: var(--padding);
+            &:before {
+                content: '.............................';
+                position: absolute;
+                font-weight: 100;
+                margin: calc(var(--margin) / -3) 0 0 calc(var(--margin) * -9);
+                @media(max-width: 769px) {
+                    content: none;
+                }
+            }
+            &:after {
+                content: '.............................';
+                position: absolute;
+                font-weight: 100;
+                margin: calc(var(--margin) / -3) 0 0 calc(var(--margin) * 1.2);
+                @media(max-width: 769px) {
+                    content: none;
+                }
+            }
+        }
+    }
+}

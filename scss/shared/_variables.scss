@@ -1,0 +1,57 @@
+:root{
+    //COLORS PALLETE
+    --color--primary: rgb(237, 165, 105);
+    --color--second: rgb(252, 189, 36);
+    --color--third: rgb(239, 107, 0);
+    --color--fourth: rgb(119, 119, 119);
+
+    
+    
+    --color-loader: #f50057;
+    --color-red: red;
+    --color-white: #fff;
+    --color-black: #000;
+
+
+    //SPACMENT 
+    --padding: 1em;
+    --margin: 1em;
+
+    //SIDEBAR WIDTH
+    --sidebar-width: 225px;
+
+    //NAVBAR HEIGHT
+    --navbar-height: 80px;
+
+    //FONT
+    --font-name: 'Roboto', sans-serif;
+
+    //FONT SIZE
+    --font-size-link: 18px;
+    --font-size-text: 16px;
+    --font-size-title: 26px;
+
+    //DEFAULT SIZE
+    --small-size: 5px;
+    --normal-size: 10px;
+    --double-size: 20px;
+
+    //DEFAULT BORDER-RADIUS
+    --normal-bd: 5px;
+    --large-bd: 40px;
+
+    //DEFAULT TRANSITION
+    --slow: all 1s;
+    --normal: all .45s;
+    --fast: all .25s;
+
+    //DEFAULT SHADOW
+    --shadow:  0px 0px 10px 0px rgba(117,117,117,0.15);
+
+    @media only screen and (max-width:992px){
+        /* --pading: .5em;
+        --margin: .5em;
+        --font-size: 12px;
+        --normal-size:5px; */
+    }
+}
