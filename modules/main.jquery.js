@@ -60,6 +60,7 @@ $(window).load(function(){
                     if (options.timer) {
                         play();
                     }
+                    responsive_slider()
                 }
     
                 function create_nav() {
@@ -103,8 +104,6 @@ $(window).load(function(){
                 }
     
                 function resize() {
-
-                    responsive_slider()
     
                     // timer pour éviter les soucis pendant le redimensionnement et arrêter/ relancer la boucle 
                     if (options.timer) {
@@ -314,7 +313,7 @@ $(window).load(function(){
     Code
     */   
 
-    if( $(window).width() <= 600){
+    if( $(window).width() <= 500){
         $('.slider').flexboxslider({
             max_height: 750,
             items:1,
@@ -326,7 +325,7 @@ $(window).load(function(){
             items:2,
             timer: false
         });
-      }else if($(window).width() <= 1200){
+      }else if($(window).width() <= 1400){
         $('.slider').flexboxslider({
             max_height: 750,
             items:3,
